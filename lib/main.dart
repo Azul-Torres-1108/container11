@@ -64,13 +64,14 @@ class ContenedorAutonomo extends StatelessWidget {
                     color: const Color(0xFF1f91ea), // Color corregido
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.5), // Color de la sombra
-                        blurRadius: 10, // Desenfoque de la sombra
-                        spreadRadius: 2, // Extensión de la sombra
+                        BoxShadow(
+                        color: Colors.black.withOpacity(1.0), // Sombra completamente negra
+                        blurRadius: 5, // Menor desenfoque para una sombra más densa
+                        spreadRadius: 3, // Mayor extensión para una sombra más intensa
                         offset: const Offset(4, 4), // Desplazamiento de la sombra
                       ),
-                    ],
+                      ],
+
                   ),
                   child: const Center(
                     child: Text(
