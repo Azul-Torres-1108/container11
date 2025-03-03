@@ -26,12 +26,14 @@ class ContenedorAutonomo extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontStyle: FontStyle.italic,
                   fontFamily: 'Roboto',
+                  color: Colors.white,
                 ),
               ),
               Text(
                 'Mat: 22308051281108',
                 style: TextStyle(
                   fontSize: 14.0,
+                  color: Colors.white,
                   fontWeight: FontWeight.normal,
                   fontStyle: FontStyle.italic,
                   fontFamily: 'Roboto',
@@ -73,7 +75,7 @@ class ContenedorAutonomo extends StatelessWidget {
                   child: const Center(
                     child: Text(
                       "Hola a todos",
-                      style: TextStyle(color: Colors.white, fontSize: 16),
+                      style: TextStyle(color: Color.fromARGB(255, 0, 0, 0), fontSize: 16),
                     ),
                   ),
                 ),
